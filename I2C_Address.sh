@@ -16,7 +16,7 @@ I2C_DETECT=`i2cdetect -y 1 | grep '\-\-' | cut -d: -f2 | grep [0-9a-fA-F] | awk 
 I2C_ADDRESS="0x${I2C_DETECT}"
 
 # Get value already installed
-I2C_ADDRESS_PREV=`grep '^ADDRESS' /home/pi/RetroPie-Clcd/I2C_LCD_driver.py | cut -d= -f2 | sed 's/ //'`
+I2C_ADDRESS_PREV=`grep '^ADDRESS' /home/pi/CLCD2/I2C_LCD_driver.py | cut -d= -f2 | sed 's/ //'`
 
 # Change config and restart service when different value detect
 if [ $I2C_ADDRESS != $I2C_ADDRESS_PREV ]
