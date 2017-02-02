@@ -1,3 +1,6 @@
+
+ALL CREDIT TO https://github.com/zzeromin 
+
 # RetroPie-Clcd
 Scrolling Game Title for RetroPie v4.0.2 using 16x2 CLCD on RAS Console-Pi
 
