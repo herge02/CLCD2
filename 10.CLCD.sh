@@ -15,7 +15,7 @@
 
 cd /home/pi/
 git clone https://github.com/herge02/CLCD2.git
-cd RetroPie-Clcd/
+cd CLCD2/
 cp runcommand-onstart.sh /opt/retropie/configs/all/
 cp runcommand-onend.sh /opt/retropie/configs/all/
 cp clcd.service /lib/systemd/system/
