@@ -32,7 +32,7 @@ First, you should install Scraper( https://github.com/retropie/retropie-setup/wi
 Second, Install below:
 <pre><code>cd /home/pi
 git clone https://github.com/herge02/CLCD2
-cd /home/pi/RetroPie-Clcd/
+cd /home/pi/CLCD2/
 chmod 755 10.CLCD.sh
 sudo ./10.CLCD.sh
 </code></pre>
