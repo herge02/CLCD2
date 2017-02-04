@@ -71,18 +71,18 @@ icons = [
 # Load logo chars (icons)
 mylcd.lcd_load_custom_chars(icons)
 
-mylcd.lcd_display_string("Welcome", 1, 5)
-mylcd.lcd_display_string("Hugo", 2, 1)
+mylcd.lcd_display_string("Welcome", 1, 4)
+mylcd.lcd_display_string("Hugo", 2, 6)
 sleep(5) # 5 sec delay
 mylcd.lcd_clear()
 
-mylcd.lcd_display_string("Insert", 1, 3)
-mylcd.lcd_display_string("Game", 2, 1)
+mylcd.lcd_display_string("Have", 1, 6)
+mylcd.lcd_display_string("Fun", 2, 7)
 sleep(5) # 5 sec delay
 mylcd.lcd_clear()
 
 mylcd.lcd_display_string("RetroPie", 1, 1)
-mylcd.lcd_display_string("Gaming", 2, 3)
+mylcd.lcd_display_string("Gaming", 2, 1)
 sleep(5) # 5 sec delay
 mylcd.lcd_clear()
 
@@ -155,8 +155,8 @@ while 1:
          f = open('/dev/shm/runcommand.log', 'r')
 #      except FileNotFoundError:
       except IOError:
-         mylcd.lcd_display_string( "Insert Game", 1, 0 )
-         mylcd.lcd_display_string( "Not Coin...", 2, 0 )
+         mylcd.lcd_display_string( "Select a Game", 1, 0 )
+         mylcd.lcd_display_string( "Push O or A", 2, 0 )
          sleep(3)
          break
          pass
