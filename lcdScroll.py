@@ -22,7 +22,7 @@ class Scroller(object):
     on any line that is greater than the provided with.
     If the lines ever need to be reset \ updated, call to the setLines() method.
     """
-    def __init__(self, lines=[], space = " :: ", width=16, height=2):
+    def __init__(self, lines=[], space = " --- ", width=16, height=2):
         """
         Instance a LCD scroller object.
         
