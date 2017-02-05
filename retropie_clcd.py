@@ -156,7 +156,7 @@ while 1:
 #      except FileNotFoundError:
       except IOError:
          mylcd.lcd_display_string( "Select a Game", 1, 0 )
-         mylcd.lcd_display_string( "Push O or A", 2, 0 )
+         mylcd.lcd_display_string( "Press O or A", 2, 0 )
          sleep(3)
          break
          pass
